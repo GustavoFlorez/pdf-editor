@@ -238,6 +238,7 @@
         on:click={onAddTextField}>
         <img src="notes.svg" alt="An icon for adding text" />
       </label>
+      <!-- svelte-ignore a11y-label-has-associated-control -->
       <label
         class="flex items-center justify-center h-full w-8 hover:bg-gray-500
         cursor-pointer"
